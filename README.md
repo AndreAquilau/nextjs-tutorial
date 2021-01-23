@@ -339,9 +339,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 export default MyApp;
 ```
 ### References
-[next-images](https://www.npmjs.com/package/next-images)
-[nextjs](https://nextjs.org/)
-[styled-components - nextjs](https://styled-components.com/docs/advanced#nextjs)
-[git vercel/nextjs](https://github.com/vercel/next.js/tree/master/examples/with-styled-components)
-[Rocketseat - Youtube ReactJS? Next.js, TypeScript, ESLint e Styled Components ](https://www.youtube.com/watch?v=1nVUfZg2dSA)
+[next-images](https://www.npmjs.com/package/next-images)<br>
+[nextjs](https://nextjs.org/)<br>
+[styled-components - nextjs](https://styled-components.com/docs/advanced#nextjs)<br>
+[git vercel/nextjs](https://github.com/vercel/next.js/tree/master/examples/with-styled-components)<br>
+[Rocketseat - Youtube ReactJS? Next.js, TypeScript, ESLint e Styled Components ](https://www.youtube.com/watch?v=1nVUfZg2dSA)<br>
 
