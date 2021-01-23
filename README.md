@@ -94,7 +94,17 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
-  rules: {},
+  rules: {
+    'prettier/prettier': "error",
+    'space-before-function-paren': "off",
+    'react/prop-types': "off",
+    'no-use-before-define': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-filename-extension': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    '@typescript-eslint/no-empty-interface': 'off'
+  },
 };
 ```
 #### Eslintignore
@@ -110,8 +120,10 @@ module.exports = {
   "tabWidth": 2,
   "singleQuote": true,
   "semi": true,
-  "printWidth": 80
-}
+  "printWidth": 80,
+  "arrowParans": "avoid",
+  "endOfLine": 'auto'
+};
 ```
 
 #### NextJS Template Integration Styled-Components
